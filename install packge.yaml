@@ -1,0 +1,9 @@
+- name: engnix install and running
+  hosts: web
+  become: yes
+  tasks:
+   - name:enginx 
+     ansible bultin package:
+       name: enginx
+       state: present
+       

@@ -7,5 +7,5 @@
     COMPANY: "L@T"
   tasks:
    - name: 
-    ansible.builtin.debug:
-    msg: "I am working with {{COURSE}}, Duration is {{DURATION}} and company name is {{COMPANY}} "
+     ansible.builtin.debug:
+       msg: "I am working with {{COURSE}}, Duration is {{DURATION}} and company name is {{COMPANY}}"

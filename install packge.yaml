@@ -1,9 +1,8 @@
-- name: engnix install and running
+- name: nginx install and running
   hosts: web
   become: yes
   tasks:
-   - name:enginx 
+   - name: nginx 
      ansible bultin package:
-       name: enginx
+       name: nginx
        state: present
-       

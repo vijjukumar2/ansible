@@ -3,13 +3,13 @@
   become: yes
   tasks:
    - name: check user exit or not
-     ansible.builtin.comand: id expence
+     ansible.builtin.command: id expence
      register: USER
      ignore_errors: True
 
    - name: print the user information
      ansible.builtin.debug:
-      msg: "user info {{ USER }}"
+      msg: "user info : {{ USER }}"
 
    - name: create user
      ansible.builtin.command: user add expence

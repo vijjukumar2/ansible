@@ -11,12 +11,13 @@
    - teraform
    - shell
 
+   live: true #boolean
    tools: #map / distionary
     ci: jenkin
     cm: ansible
     cloud: aws
 
-   live: true #boolean
+   
   tasks:
   - name: print the course information
     ansible.builtin.debug:

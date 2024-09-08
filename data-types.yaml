@@ -19,6 +19,6 @@
   live: true
   tasks:
   - name: print the course information
-    ansible builtin debug:
+    ansible.builtin.debug:
      msg: "I am learning {{ course }}, with duration {{ duration }}, company {{ company }} , topics {{ topics }},tools {{ tools }},live {{ live }}, "
 

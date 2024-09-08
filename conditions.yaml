@@ -12,7 +12,7 @@
       msg: "user info : {{ USER }}"
 
    - name: create user
-     ansible.builtin.command: user add expence
+     ansible.builtin.command: useradd expence
      when: USER.rc != 0
       
 

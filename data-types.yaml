@@ -1,6 +1,6 @@
 - name: data types in ansible
   hosts: local
-  connections: yes
+  connection: yes #for localhost
   vars:
    course: devops
    duration: 5 years

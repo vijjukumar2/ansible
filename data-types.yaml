@@ -5,18 +5,18 @@
    course: devops
    duration: 5 years
    company: L@T
-  topics: #list
-  - linux
-  - ansible
-  - teraform
-  - shell
+   topics: #list
+   - linux
+   - ansible
+   - teraform
+   - shell
 
-  tools: #map / distionary
-   ci: jenkin
-   cm: ansible
-   cloud: aws
+   tools: #map / distionary
+    ci: jenkin
+    cm: ansible
+    cloud: aws
 
-  live: true
+   live: true #boolean
   tasks:
   - name: print the course information
     ansible.builtin.debug:

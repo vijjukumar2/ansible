@@ -1,4 +1,4 @@
-- name: data types 
+- name: course information
   hosts: local
   connection: yes #for localhost
   vars:

@@ -1,6 +1,6 @@
 - name: course information
   hosts: local
-  connection: yes #for localhost
+  connection: local #for localhost
   vars:
    course: devops
    duration: 5 years

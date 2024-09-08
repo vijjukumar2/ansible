@@ -1,0 +1,24 @@
+- name: data types in ansible
+  hosts: local
+  connections: yes
+  vars:
+   course: devops
+   duration: 5 years
+   company: L@T
+  topics: #list
+  - linux
+  - ansible
+  - teraform
+  - shell
+
+  tools: #map / distionary
+   ci: jenkin
+   cm: ansible
+   cloud: aws
+
+  live: true
+  tasks:
+  - name: print the course information
+    ansible builtin debug:
+     msg: "I am learning {{ course }}, with duration {{ duration }}, company {{ company }} , topics {{ topics }},tools {{ tools }},live {{ live }}, "
+

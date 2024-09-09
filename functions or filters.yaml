@@ -1,7 +1,6 @@
 - name: functions on demo
   hosts: web
   become: yes
-  connection: local
   tasks:
    - name:
      ansible.builtin.debug:

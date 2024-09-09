@@ -1,0 +1,7 @@
+- name: functions on demo
+  hosts: local
+  connection: local
+  tasks:
+   - name:
+     ansible.builtin.debug:
+      msg: " hello {{ course | default('ansible') }}"

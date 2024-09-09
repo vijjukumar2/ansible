@@ -1,4 +1,4 @@
-- name: functions on demo
+- name: demo
   hosts: web
   become: yes
   tasks:

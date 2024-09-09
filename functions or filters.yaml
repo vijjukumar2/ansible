@@ -1,5 +1,6 @@
 - name: functions on demo
-  hosts: local
+  hosts: web
+  become: yes
   connection: local
   tasks:
    - name:
